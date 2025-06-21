@@ -149,7 +149,7 @@
 }
 
 /* PRODUCTS SECTION */
-.product-grid {
+.homeproduct-grid {
   display: flex;
   flex-direction: column;
   gap: 20px;

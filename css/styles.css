@@ -86,7 +86,7 @@ body {
 
 .hero-container {
   max-width: 1200px;
-  margin: auto;
+  margin: 30px;
   padding: 0 40px;
   display: flex;
   flex-wrap: wrap;
@@ -192,26 +192,26 @@ body {
 }
 
 /*Products Section*/
-.products-section {
+.home-products-section {
   padding: 60px 20px;
   background-color: #f4f4f4;
 }
 
-.products-section h2 {
+.home-products-section h2 {
   font-size: 26px;
   margin-bottom: 20px;
   color: #222;
   text-align: center;
 }
 
-.product-grid {
+.home-product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
   margin-bottom: 50px;
 }
 
-.product-card {
+.home-product-card {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -219,7 +219,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-.product-card img {
+.home-product-card img {
   width: 100%;
   height: 160px;
   object-fit: cover;
@@ -227,13 +227,13 @@ body {
   margin-bottom: 15px;
 }
 
-.product-card h3 {
+.home-product-card h3 {
   font-size: 18px;
   color: #333;
   margin-bottom: 10px;
 }
 
-.product-card p {
+.home-roduct-card p {
   font-size: 14px;
   color: #666;
 }
@@ -370,6 +370,54 @@ footer .social-icons i {
 footer .right .social-icons {
   margin-top: 20px; /* Add margin to the top of the social icons */
 }
+
+/*PRODUCTS PAGE STLYES*/
+.products-page {
+  padding: 20px;
+}
+
+.product-category {
+  margin-bottom: 40px;
+}
+
+.product-category h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #222;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+}
+
 
 /*ABOUT US PAGE STYLES*/
 .about-page {

@@ -148,6 +148,15 @@
   display: none; /* Hide arrows on mobile */
 }
 
+/*Delivery*/
+.delivery-content {
+    flex-direction: column;
+  }
+
+  .delivery-image {
+    margin-top: 20px;
+  }
+
 /* PRODUCTS SECTION */
 .homeproduct-grid {
   display: flex;

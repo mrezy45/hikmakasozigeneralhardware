@@ -8,7 +8,7 @@
 
 .top-bar p {
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Navbar */
@@ -18,7 +18,7 @@
   align-items: center;
   width: 100%;
   padding: 10px;
-  position: relative; /* Needed for positioning the menu dropdown */
+  position: sticky; /* Needed for positioning the menu dropdown */
 }
 
 .navbar .logo {
@@ -95,7 +95,7 @@
 }
 
 .hero-text p {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom:10px;
 }
 
@@ -216,7 +216,7 @@
 }
 
 .founding-section p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: justify;
 }
@@ -238,12 +238,12 @@
 }
 
 .mission-vision-section h2 {
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 8px;
 }
 
 .mission-vision-section p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.4;
 }
 
